@@ -1,0 +1,125 @@
+<div class="form">
+  <div class="data">
+    <label for="location">Hegység:</label>
+    <select name="locationId" id="location">
+      <option value="">Kérem válasszon</option>
+      @for (item of locations; track $index) {
+        <option value="Börzsöny">{{item.locationName}}</option>
+      }
+
+    </select>
+  </div>
+</div>
+
+<div id="viewpoints">
+  <div class="viewpoint">
+    <h2>Avasi kilátó</h2>
+    <div>
+      <ul>
+        <li>
+          <label>Hegység:</label>
+          <span>Avas</span>
+        </li>
+        <li>
+          <label>Magassága:</label>
+          <span>72.2 m</span>
+        </li>
+        <li>
+          <label>Épült:</label>
+          <span>1963.05.04</span>
+        </li>
+      </ul>
+    </div>
+    <p class="description">
+      Tévétoronyként és kilátóként egyaránt használt építmény. A kilátóteraszról madártávlatból bontakozik ki Miskolc
+      városa és a környező táj. A torony tetején kávézó várja a vendégeket.
+    </p>
+    <div class="image">
+      <img src="https://viewpoint.jedlik.cloud/images/avas.jpg">
+    </div>
+  </div>
+
+  <div class="viewpoint">
+    <h2>Kalapat-hegyi kilátó</h2>
+    <div>
+      <ul>
+        <li>
+          <label>Hegység:</label>
+          <span>Kalapat-tető</span>
+        </li>
+        <li>
+          <label>Magassága:</label>
+          <span>33.3 m</span>
+        </li>
+        <li>
+          <label>Épült:</label>
+          <span>2000.08.20</span>
+        </li>
+      </ul>
+    </div>
+    <p class="description">
+      A kilátótoronyból körpanoráma nyílik, látható többek között Szilvásvárad, a Bél-kő, a Szalajka-völgy, az
+      Istállós-kő, a Gerenna-vár, távolabb pedig a Mátra is.
+    </p>
+    <div class="image">
+      <img src="https://viewpoint.jedlik.cloud/images/kalapat.jpg">
+    </div>
+  </div>
+
+  <div class="viewpoint">
+    <h2>Major-tetői kilátó</h2>
+    <div>
+      <ul>
+        <li>
+          <label>Hegység:</label>
+          <span>Major-tető</span>
+        </li>
+        <li>
+          <label>Magassága:</label>
+          <span>30.4 m</span>
+        </li>
+        <li>
+          <label>Épült:</label>
+          <span>2004.08.12</span>
+        </li>
+      </ul>
+    </div>
+    <p class="description">
+      Rálátunk az apró településre és az Eger-patak vulkanikus szurdokára éppúgy, mint a Bükk-fennsík köveinek
+      vonulatára, valamint a távolabbi Egerre. A kilátó egyszintes, de felülről fedett.
+    </p>
+    <div class="image">
+      <img src="https://viewpoint.jedlik.cloud/images/major-teto.jpg">
+    </div>
+  </div>
+
+  <div class="viewpoint">
+    <h2>Petőfi-kilátó</h2>
+    <div>
+      <ul>
+        <li>
+          <label>Hegység:</label>
+          <span>Bálvány</span>
+        </li>
+        <li>
+          <label>Magassága:</label>
+          <span>18.5 m</span>
+        </li>
+        <li>
+          <label>Épült:</label>
+          <span>2016.06.22</span>
+        </li>
+      </ul>
+    </div>
+    <p class="description">
+      A Bükk-vidék legmagasabban fekvő tornyából valóban lenyűgöző 360 fokos körpanoráma tárul elénk. A Petőfi-kilátó
+      legfelső szintjéről tiszta időben az Észak-magyarországi-középhegység minden tagját és a Felvidék számos
+      magashegységét is láthatjuk.
+    </p>
+    <div class="image">
+      <img src="https://viewpoint.jedlik.cloud/images/petofi.jpg">
+    </div>
+  </div>
+
+
+</div>
